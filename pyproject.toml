@@ -1,0 +1,15 @@
+[project]
+name = "cbm-leergut-agent"
+version = "0.1.0"
+description = "Konversationeller Datenanalyse-Agent für die Leergut-Bestandsführung des Kunden CBM"
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-agents>=1.1.0",
+]
+
+[tool.mistralai.agents]
+entrypoint = "main:agent"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
