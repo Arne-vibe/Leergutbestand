@@ -9,7 +9,3 @@ dependencies = [
 
 [tool.mistralai.agents]
 entrypoint = "main:agent"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
