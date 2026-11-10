@@ -1,7 +1,7 @@
 [project]
-name = "cbm-leergut-agent"
+name = "leergut-agent"
 version = "0.1.0"
-description = "Konversationeller Datenanalyse-Agent für die Leergut-Bestandsführung des Kunden CBM"
+description = "Konversationeller Datenanalyse-Agent für die Leergut-Bestandsführung"
 requires-python = ">=3.12"
 dependencies = [
     "mistralai-agents>=1.1.0",
