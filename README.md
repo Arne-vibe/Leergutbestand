@@ -1,7 +1,7 @@
-# cbm-leergut-agent
+# leergut-agent
 
 Konversationeller Datenanalyse-Agent (Mistral Agents SDK) für die Leergut-Bestandsführung
-des Kunden CBM. Der Agent führt den Bestand in einer Markdown-Tabelle innerhalb der
+der Kunden. Der Agent führt den Bestand in einer Markdown-Tabelle innerhalb der
 Session, bucht Zugänge/Abgänge, beantwortet Fragen mit den echten Zahlen und hat keine
 Werkzeuge und keine Sandbox (keine Codeausführung). Deployte Sessions werden von Mistral
 gespeichert, inklusive des Gesprächsverlaufs.
