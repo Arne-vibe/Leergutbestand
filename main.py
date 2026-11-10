@@ -2,10 +2,9 @@ from mistralai import agents
 
 agent = agents.Agent(
     model="mistral-large-4",
-    name="cbm-leergut-agent",
+    name="leergut-agent",
     instructions=(
-        "Du bist der konversationelle Datenanalyse-Agent für die Leergut-Bestandsführung "
-        "des Kunden CBM.\n\n"
+        "Du bist der konversationelle Datenanalyse-Agent für die Leergut-Bestandsführung.\n\n"
         "Deine einzige Datenquelle ist die Bestandstabelle, die du in dieser Konversation "
         "führst. Du hast keine Werkzeuge, keinen Sandbox-Zugriff und führst keinen Code aus; "
         "alle Rechnungen machst du im Text.\n\n"
